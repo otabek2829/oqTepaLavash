@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?,wght@1,200&display=swap');
+.navbar {
+  border-bottom: 1px solid #e3e4e6;
+  height: 82px !important;
+}
+.navbar ul .nav-link {
+  font-weight: 500;
+  color: #2e2e33 !important;
+  margin-left: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.navbar .nav_phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #e3e4e6;
+}
+.navbar .nav_phone a {
+  color: #2e2e33;
+}
+.navbar .nav_phone {
+  font-weight: 500;
+  color: #2e2e33;
+  font-size: 15px;
+  line-height: 24px;
+}
+.navbar .logo {
+  display: inline-block;
+  height: 100%;
+  width: 162px;
+  margin-left: 20px;
+  padding: 12px 32px !important;
+  border-right: 1px solid #e3e4e6;
+}
+.navbar .logo img {
+  width: 100%;
+  height: 100%;
+}
+.navbar .sign-in {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .sign-in a {
+  background: #eb2341;
+  color: #fff;
+  padding: 8px 15px !important;
+  border-radius: 5px;
+}
+
+/* =========================== Category Menu Starting Style ===========================  */
+
+.categoryMenu{
+  padding: 15px 0 !important;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 99;
+}
+.categoryMenu a{
+  transition: 500ms;
+  display: inline-block;
+
+}
+.categoryMenu .categoryList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center !important;
+  margin-left: 40px;
+}
+.categoryMenu a:hover{
+  background: #ddd4d4;
+  border-radius: 15px;
+  padding: -5px -10px !important;
+  
+}
+.categoryMenu .categoryList a{
+  padding: 5px 10px !important;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #2e2e33;
+}
